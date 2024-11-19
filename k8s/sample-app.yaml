@@ -179,6 +179,7 @@ spec:
             fieldRef:
               fieldPath: metadata.labels['deployment']
         image: gcr.io/sci-4-data/sci4/sample-app:1.0.0
+        #image: gcr.io/sci-4-data/sci4/sample-app:latest
         name: sample-app
         ports:
         - containerPort: 8080
