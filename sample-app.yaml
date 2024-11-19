@@ -17,7 +17,8 @@ spec:
   ingressClassName: nginx
   rules:
   # CHANGE THIS
-  - host: sample-app.gkeX.<DOMAIN>.cloud
+  #- host: sample-app.gkeX.<DOMAIN>.cloud
+  - host: sample-app.gke1.itconcepts.cloud
     http:
       paths:
       - backend:
