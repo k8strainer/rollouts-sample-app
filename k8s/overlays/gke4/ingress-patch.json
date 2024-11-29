@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/spec/rules/0/host",
-    "value": sample-app.gke4.gfu.cloud"
+    "value": "sample-app.gke4.gfu.cloud"
   }
 ]
 
