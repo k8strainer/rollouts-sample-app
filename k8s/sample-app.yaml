@@ -19,7 +19,7 @@ spec:
   rules:
   # CHANGE THIS
   #- host: sample-app.gkeX.<DOMAIN>.cloud
-  - host: sample-app.gke1.itconcepts.cloud
+  - host: sample-app.gke1.gfu.cloud
     http:
       paths:
       - backend:
