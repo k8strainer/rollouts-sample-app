@@ -1,6 +1,8 @@
 resources:
   - ../../base
 
+# patchesJson6902 vs. patches
+#https://github.com/kubernetes-sigs/kustomize/issues/2705#issuecomment-659012281
 patches:
   - target:
       group: networking.k8s.io
