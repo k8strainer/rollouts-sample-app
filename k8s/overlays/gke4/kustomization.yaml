@@ -1,12 +1,5 @@
 resources:
   - ../../base
 
-patches:
-  - target:
-      group: networking.k8s.io
-      version: v1
-      kind: Ingress
-      name: sample-app
-      namespace: sample-app
-    path: ingress-patch.json
-
+patchesStrategicMerge:
+- ingress-patch.yaml
