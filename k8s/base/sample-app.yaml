@@ -61,7 +61,7 @@ spec:
         nginx:
           additionalIngressAnnotations:
             canary-by-header: X-Canary
-          stableIngress: sample-app-stable
+          stableIngress: sample-app
 
 
 ---
