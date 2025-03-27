@@ -13,7 +13,7 @@ spec:
       paths:
       - backend:
           service:
-            name: sample-app-stable
+            name: sample-app
             port:
               name: http
         path: /
