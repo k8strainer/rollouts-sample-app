@@ -101,7 +101,7 @@ spec:
   # check request duration
   - name: request-duration-check
     interval: 1m
-    failureLimit: 1
+    failureLimit: 2
     provider:
       prometheus:
         ### address: https://thanos-querier.openshift-monitoring.svc.cluster.local:9091 ### opns
